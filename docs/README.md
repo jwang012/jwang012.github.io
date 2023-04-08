@@ -1,6 +1,6 @@
 ---
 article: false
-title: LearnData 开源笔记
+title: 安安小小创业训练营
 icon: note
 ---
 
