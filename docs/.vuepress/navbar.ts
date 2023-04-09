@@ -47,7 +47,7 @@ export default navbar([
     children: [
       { text: "微信", icon: "wechat", link: "https://tc.seoipo.com/wechat.svg" },
       { text: "Discord", icon: "group", link: "https://discord.gg/PZTQfJ4GjX" },
-      { text: "RSS", icon: "rss", link: "https://newzone.top/rss.xml" },
+      { text: "RSS", icon: "rss", link: "https://www.anango.cn/rss.xml" },
     ],
   },
   { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
