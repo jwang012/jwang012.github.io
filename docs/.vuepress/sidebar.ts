@@ -13,7 +13,6 @@ export default sidebar([
     link: "",
     collapsible: true,
     children: [
-      "Applist.md",
       "ChatGPT.md",
       "design.md",
       "AppNotes.md",
