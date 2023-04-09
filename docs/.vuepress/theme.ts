@@ -8,7 +8,7 @@ export default hopeTheme({
   hostname: "https://www.anango.cn",
 
   author: {
-    name: "安安",
+    name: "安安爸",
     url: "https://www.anango.cn",
   },
 
@@ -39,7 +39,7 @@ export default hopeTheme({
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
-  repoDisplay: true,
+  repoDisplay: false,
   // 文档存放路径
   docsDir: "docs",
 
@@ -68,21 +68,14 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "安安",
+    name: "安安爸",
     avatar: "/avatar_self.webp",
     description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      '少数派': [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
       Wechat: "https://tc.seoipo.com/wechat.svg",
       Email: "mailto:ryan@anango.cn",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
       RSS: "https://www.anango.cn/rss.xml",
     },
   },
