@@ -98,7 +98,7 @@ export default hopeTheme({
     // 评论配置（仅做样例，记得更换）
     comment: {
       provider: "Waline",
-      serverURL: "https://waline.newzone.top",
+      serverURL: "https://ryango.vercel.app",
       reaction: [
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
@@ -107,7 +107,7 @@ export default hopeTheme({
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f635-200d-1f4ab.png",
       ],
       // 部署 Waline：https://waline.js.org/guide/get-started.html
-      // pageview: true, // 浏览量统计
+      pageview: true, // 浏览量统计
       locales: {
         "/": {
           // 表情互动提示文字

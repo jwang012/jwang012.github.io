@@ -124,7 +124,7 @@ LearnData 集成了看板娘 [Live2D Widget](https://github.com/stevenjoezhang/l
 
 ```javascript
 waline: {
-   serverURL: "https://waline.newzone.top",
+   serverURL: "https://ryango.vercel.app",
    ...
 }
 ```
