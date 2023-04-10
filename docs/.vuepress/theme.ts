@@ -74,7 +74,7 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      Wechat: "https://tc.seoipo.com/wechat.svg",
+      Wechat: "https://images-1259217603.cos.ap-guangzhou.myqcloud.com/WechatIMG27.jpeg",
       Email: "mailto:ryan@anango.cn",
       RSS: "https://www.anango.cn/rss.xml",
     },
