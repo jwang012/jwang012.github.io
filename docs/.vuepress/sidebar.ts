@@ -4,7 +4,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   "/DailyRoutine",
   // 读书笔记架构更换到 docsify，不能使用相对链接
-  { text: "读书笔记", icon: "read", link: "https://www.anango.cn/reading/" },
+  // { text: "读书笔记", icon: "read", link: "https://www.anango.cn/reading/" },
   // 指定显示页面
   {
     text: "🧰 应用手册",
