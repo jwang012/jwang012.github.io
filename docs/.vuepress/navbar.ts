@@ -4,42 +4,25 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "博客", icon: "blog", link: "/blog" },
   {
-    text: "代码",
+    text: "商业模式",
     icon: "code",
     prefix: "/",
     children: [
-      "code/Markdown",
-      "code/AutoHotkey",
-      "code/Electron",
-      {
-        text: "页面开发",
-        icon: "vue",
-        prefix: "",
-        children: ["web/VuePress", "web/docsify", "deploy/VPS"],
-      },
     ],
   },
   {
-    text: "应用",
+    text: "创业指南",
     icon: "app",
     prefix: "/",
     children: [
-      "apps/Applist",
-      { text: "ChatGPT SC", icon: "creative", link: "https://ai.newzone.top/" },
-      { text: "直播手册", icon: "quote", link: "apps/livestreaming/1_obs_basic" },
-      {
-        text: "服务/系统",
-        icon: "any",
-        prefix: "",
-        children: ["services/NAS", "windows/faq"],
-      },
+
     ],
   },
   {
-    text: "生活",
+    text: "自我管理",
     icon: "emmet",
-    prefix: "/family/",
-    children: ["Diet", "Shoppinglist", "Coupon"],
+    prefix: "/selfManagement/",
+    children: [],
   },
   {
     text: "Contact",
@@ -50,5 +33,5 @@ export default navbar([
       // { text: "RSS", icon: "rss", link: "https://www.anango.cn/rss.xml" },
     ],
   },
-  { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
+  // { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
 ]);
