@@ -12,20 +12,8 @@ export default sidebar([
     prefix: "/apps/",
     link: "",
     collapsible: true,
-    children: [
-      "ChatGPT.md",
-      "design.md",
-      "AppNotes.md",
-      "Chrome.md",
-      {
-        text: "直播手册",
-        icon: "load",
-        prefix: "livestreaming/",
-        link: "",
-        collapsible: true,
-        children: "structure",
-      },
-    ],
+    children: "structure",
+
   },
   {
     text: "🌐 页面开发",
